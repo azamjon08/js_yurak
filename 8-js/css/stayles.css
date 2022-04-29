@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.link{
+   margin-left: 700px;
+   margin-top: 300px;
+  
+}
+.boy{
+    animation: boy  1s alternate infinite;
+}
+@keyframes boy{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(2);
+    }
+
+}
+.boy2{
+   animation: boy2 1s alternate infinite;
+}
+@keyframes boy2 {
+
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(2);
+    }
+
+
+
+}
